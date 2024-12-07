@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:wght@100;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfc;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* navbar */
+nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    background-color: #ffffff;
+    box-shadow: 0 0 7px 0px rgba(0, 0, 0,0.1);
+}
+nav .logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+}
+nav .logo img {
+    height: 50px;
+    border-radius: 50%;
+}
+nav .logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #31515C; 
+}
+
+nav .active {
+    color: #00aaff;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+}
+nav .menu a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: #31515C;
+    font-size: 20px;
+    transition: all .40s ease;
+}
+nav .menu a:hover {
+    color: #00aaff;
+}
+nav .menu a.active {
+    color: #00aaff;
+}
+nav .menu .icons {
+    display: flex;
+}
+
+nav .menu .icons button a {
+    margin: 0px;
+}
+
+nav .menu .icons i {
+    cursor: pointer;
+    font-size: 26px;
+    margin: 0 20px;
+    color: #00aaff;
+}
+
+nav .menu .contact-btn {
+    font-family: 'poppins', serif;
+    background-color: #00aaff;
+    color: #ffffff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+nav .menu .contact-btn i {
+    margin-right: 10px;
+    color: #ffffff;
+}
+nav .menu .contact-btn:hover {
+    background-color: #B200F1;
+    
+}
+/* navbar */
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 160px 0px 200px 0px;
+}
+.intro h1 {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.intro .lucu h2 {
+    font-size: 32px;
+}
+.intro p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.lucu {
+    width: 50%;
+}
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.social-icons {
+
+    .iconly i {
+        font-size: 24px;
+        padding: 10px;
+        margin: 0px 20px 0px 0px;
+        border-radius: 50px;
+        background-color: #d8dde0;
+        color: #2B2D42;
+    }
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.buttons a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.buttons .contact {
+    background-color: #00aaff;
+    color: #ffffff;
+}
+.buttons .portfolio {
+    border: 1px solid #333333;
+    color: #333333;
+}
+
+/* .buttons .contact:hover {
+    border: 1px solid #333333;
+    border-color: #fff;
+    color: #ffffff;
+}
+.buttons .portfolio:hover {
+    background-color: #00aaff;
+    color: #ffffff;
+} */
+
+.education, .awards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.award-item   {
+    padding: 0px 0px 26px 0px;
+}
+
+.education-item {
+    margin-right: 20px;
+    margin-bottom: 65px;
+    padding: 0px 0px 25px 0px;
+}
+
+.font {
+    margin-left: 40px;
+}
+.education-item .p{
+    font-weight: bold;
+    font-family: 'Outfit','sans-serif';
+    font-size: 22px;
+    .h {
+        margin:0px 0px 0px 40px;
+        font-family: 'Outfit','sans-serif';
+        font-weight: medium;
+        font-size: 26px;
+    }
+}
+.award-item .p {
+    font-weight: bold;
+    font-family: 'Outfit','sans-serif';
+    font-size: 22px;
+    .h {
+        margin:0px 0px 0px 40px;
+        font-weight: medium;
+        font-size: 30px;
+    }
+}
+.education-item, .award-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.education-item i {
+    font-size: 32px;
+}
+.award-item i {
+    font-size: 40px;
+
+}
+.section .portfolio {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 49px;
+}
+
+.section h2 {
+    margin: 0 0 40px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.portfolio-item {
+    width: 30%;
+}
+.portfolio-item img {
+    width: 100%;
+    height: 200;
+    border-radius: 10px;
+}
+.section {
+    padding: 55px 0px 30px 0px;
+}
+
+.portfolio-item p {
+    text-align: center;
+    margin-top: 10px;
+}
+.contact-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.contact-section h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* footer */    
+
+footer {
+    height: 100%;
+    width: 100%;
+    background: #31515C;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+section {
+    padding: 100px 13% 70px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, auto));
+    gap: 3.5 rem;
+    background: #2B2D42;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer-content{
+    margin-right: 70px;
+    color: #fff;
+}
+
+.footer-content h2 {
+    font-weight: bolder;
+    
+}
+
+.footer-content h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-content li{
+    margin-bottom: 16px;
+}
+
+.footer-content li a {
+    display: block;
+    color: #d6d6d6;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: #fff;
+}
+
+.footer-conter p {
+    color: #d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.icon-foot a{
+    display: inline-block;
+    font-size: 22px;
+    color: #d6d6d6;
+    margin-right: 17px;
+    transition: all .40s ease;
+}
+
+.icon-foot a:hover {
+    color: #fff;
+    transform: translateY(-5px);
+}

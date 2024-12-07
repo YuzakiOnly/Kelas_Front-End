@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:wght@100;400;500;600;700&display=swap');
+
+
+.lucu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100%;
+    font-size: 30px;
+}
+
+.makanan {
+    font-family: 'outfit',serif;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding: 0px 100px 0px 100px;
+}
+.menu-makanan {
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    padding: 65px 100px;
+    margin: 20px 0px 10px 0px;
+}
+
+
+.menu-makanan img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.menu-title {
+    color: #2c3e50;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+}
+
+.menu-subtitle {
+    color: #7f8c8d;
+    font-size: 16px;
+    margin-top: 5px;
+    display:flex;
+}
+
+.stars {
+    color: #f1c40f;
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.stars i {
+    margin-right: 5px;
+}
+
+.menu-makanan .harga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.menu-makanan .rp {
+    font-family: 'outfit',serif;
+}
+
+.menu-makanan .price {
+    font-weight: medium;
+    font-size: 22px;
+}
+.menu-makanan .price span {
+    color: #ff6b6b;
+    font-weight: medium;
+}
+
+@media screen and (max-width : 768px) {
+    .makanan {
+        display: grid;
+        padding: 0 10px;
+        gap: 40px;
+    }
+
+}
